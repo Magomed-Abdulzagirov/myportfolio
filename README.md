@@ -108,10 +108,6 @@ portfolio-app/
 └── ...
 ```
 
-## 📸 Screenshots
-
-*(Add screenshots of your application here to showcase its features and design.)*
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please follow these steps:
