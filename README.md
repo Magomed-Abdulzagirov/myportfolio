@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+🎯 My Personal Portfolio
+Современное веб-приложение-портфолио, созданное с использованием React и современных инструментов разработки.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Технологический стек
+React 18 - Библиотека для построения пользовательского интерфейса
 
-## Available Scripts
+Create React App - Стартовый шаблон для быстрого начала разработки
 
-In the project directory, you can run:
+Tailwind CSS - Утилитарный CSS-фреймворк (на основе tailwind.config.js)
 
-### `npm start`
+JavaScript (83.3%), CSS (8.6%), HTML (8.1%)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+📁 Структура проекта
+text
+myportfolio/
+├── public/          # Статические файлы
+├── src/            # Исходный код приложения
+├── .gitignore      # Исключаемые файлы Git
+├── package.json    # Зависимости и скрипты
+├── tailwind.config.js # Конфигурация Tailwind CSS
+├── qodana.yaml     # Конфигурация анализа кода
+└── project.json    # Конфигурация проекта
+🛠️ Установка и запуск
+Предварительные требования
+Node.js (рекомендуется версия 16 или выше)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+npm
 
-### `npm test`
+Установка зависимостей
+bash
+npm install
+Доступные скрипты
+npm start
+Запускает приложение в режиме разработки.
+Откройте http://localhost:3000 для просмотра в браузере.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm run build
+Собирает приложение для production в папку build.
 
-### `npm run build`
+npm test
+Запускает тестовый раннер в интерактивном режиме.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm run eject
+⚠️ Внимание: это необратимая операция!
+Удаляет Create React App из зависимостей и копирует все конфигурационные файлы.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🔧 Особенности проекта
+Готовность к деплою (оптимизированная сборка)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Поддержка Progressive Web App
 
-### `npm run eject`
+Интеграция с Tailwind CSS для стилизации
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Конфигурация для анализа кода (Qodana)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🌐 Деплой
+Собранное приложение готово к деплою на такие платформы как:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+GitHub Pages
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Vercel
 
-## Learn More
+Netlify
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Firebase Hosting
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🤝 Вклад в проект
+Если вы хотите внести свой вклад:
 
-### Code Splitting
+Форкните репозиторий
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Создайте ветку для вашей функции (git checkout -b feature/amazing-feature)
 
-### Analyzing the Bundle Size
+Зафиксируйте изменения (git commit -m 'Add amazing feature')
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Запушьте ветку (git push origin feature/amazing-feature)
 
-### Making a Progressive Web App
+Создайте Pull Request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+📝 Контакты
+Magomed Abdulzagirov
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+GitHub: @Magomed-Abdulzagirov
