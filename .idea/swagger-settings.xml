@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SwaggerSettings">
+    <option name="localHubAddress" value="https://openai.com/" />
+    <remoteSpecificationUrls>
+      <UrlInfo>
+        <option name="urlString" value="https://openai.com/" />
+      </UrlInfo>
+    </remoteSpecificationUrls>
+  </component>
+</project>
