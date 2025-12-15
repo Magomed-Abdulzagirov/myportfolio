@@ -1,0 +1,18 @@
+.blue-black{
+    background-color: #222222;
+}
+.click-animation {
+  transition: all 0.1s ease-in-out;
+}
+
+.click-animation:active {
+  transform: scale(0.95);
+  opacity: 0.8;
+}
+.showMenuNav {
+    @apply fixed top-0 left-0 w-full h-screen bg-[#222222] z-50 flex flex-col items-center justify-start pt-16;
+}
+
+.hideMenuNav {
+    @apply hidden;
+}

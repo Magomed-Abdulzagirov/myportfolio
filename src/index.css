@@ -1,0 +1,29 @@
+/* Modern CSS Reset */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #2d2e32;
+  --accent-color: #20ad96;
+  --text-color: #555;
+  --light-bg: #f9f9f9;
+  --white: #ffffff;
+  --font-main: "Inter", sans-serif;
+    height: 100%;
+}
+
+body {
+  font-family: var(--font-main);
+  color: var(--text-color);
+  line-height: 1.6;
+    background-color: #161513;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
